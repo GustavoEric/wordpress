@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "gulp-sass": "^5.1.0",
     "stylus": "^0.63.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-stylus": "^3.0.1",
+    "sass": "^1.71.1"
   }
 }
