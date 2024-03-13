@@ -1,0 +1,29 @@
+body.dark-mode {
+  background: #000;
+
+  .card {
+    background: none;
+  }
+
+  * {
+    color: #fff !important;
+  }
+
+  .mais-buscadas {
+  }
+
+  section.especiais {
+    .cards-especiais {
+      .especial.third {
+        p {
+          color: $orange-marfrig !important;
+        }
+      }
+      .especial.second {
+        p {
+          color: $orange-marfrig !important;
+        }
+      }
+    }
+  }
+}

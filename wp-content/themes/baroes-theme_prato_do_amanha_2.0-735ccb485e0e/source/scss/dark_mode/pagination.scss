@@ -1,0 +1,18 @@
+body.tag.dark-mode {
+  .pagination-box {
+    ul.pagination {
+      .page-item {
+        .page-link {
+          color: $title-dm-marfrig !important;
+          &.current {
+            color: $white-marfrig !important;
+          }
+        }
+      }
+    }
+    .next span,
+    .prev span {
+      color: $title-dm-marfrig !important;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+    "key": "group_64c7b63b36ac0",
+    "title": "[Revamp_2023] - Mais Lidas - Global",
+    "fields": [
+        {
+            "key": "field_64c7b63b6004a",
+            "label": "Mais lidas",
+            "name": "mais_lidas_global",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "Selecione 05 Post.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "post"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search",
+                "post_type",
+                "taxonomy"
+            ],
+            "return_format": "object",
+            "min": "",
+            "max": 5,
+            "elements": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "Mais Lidas"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1690810734
+}

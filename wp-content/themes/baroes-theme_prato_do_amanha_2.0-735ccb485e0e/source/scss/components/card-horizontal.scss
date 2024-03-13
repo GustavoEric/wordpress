@@ -1,0 +1,49 @@
+.card {
+    &__horizontal {
+        display: flex;
+        gap: 20px;
+        @media only screen and (max-width: 575.98px) {
+            gap: 15px;
+        }
+
+        .card__thumb {
+            @media only screen and (max-width: 575.98px) {
+                flex: 0 0 37.6%;
+            }
+            img {
+                @media only screen and (max-width: 575.98px) {
+                    height: auto;
+                }
+            }
+        }
+        .card__content {
+            .cat {
+                margin-bottom: 9px;
+                @media only screen and (max-width: 575.98px) {
+                    font-size: 9px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+            h2 {
+                margin-bottom: 9px;
+                @media only screen and (max-width: 575.98px) {
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+                a {
+
+                }
+            }
+            p {
+                margin-bottom: 0;
+                @media only screen and (max-width: 575.98px) {
+                    display: none;
+                }
+            }
+        }
+    }
+}

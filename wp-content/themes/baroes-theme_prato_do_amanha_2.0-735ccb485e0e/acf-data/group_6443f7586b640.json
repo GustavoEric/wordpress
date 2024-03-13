@@ -1,0 +1,52 @@
+{
+    "key": "group_6443f7586b640",
+    "title": "Pilares Marfrig Verde +",
+    "fields": [
+        {
+            "key": "field_6443f7644dc36",
+            "label": "Pilares Marfrig Verde +",
+            "name": "pilares_marfrig_verde_+_",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "desenvolvimento": "Desenvolvimento de mecanismos financeiros inovadores",
+                "estruturacao": "Estruturação de assistência técnica e tecnificação",
+                "mecanismos": "Mecanismos de monitoramento e rastreabilidade"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_taxonomy",
+                "operator": "==",
+                "value": "post_tag:marfrig-verde"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1689455891
+}

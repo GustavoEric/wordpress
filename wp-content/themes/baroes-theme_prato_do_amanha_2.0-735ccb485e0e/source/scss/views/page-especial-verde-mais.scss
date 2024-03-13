@@ -1,0 +1,539 @@
+.page-template-page-marfrig-verde-mais {
+    #main{
+        padding-top: 0px;
+    }
+    .divisor-verdemais {
+        width: 73%;
+        border-bottom: 1px solid rgba(46,46,46,.1);
+        margin: 64px auto 70px;
+        @media only screen and (max-width: 575.98px) {
+            width: 100%;
+            margin: 30px auto 30px;
+        }
+    }
+
+    .header-canal-marfrig-verde-mais {
+        background-image: url('../images/verde+/topo-marfrig-verde-mais.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #fff;
+        padding-bottom: 80px;
+        padding-top: 100px;
+        @media only screen and (max-width: 575.98px) {
+            background-size: 355%;
+            padding-bottom: 12px;
+            padding-top: 35px;
+        }
+
+        h1{
+            display: none;
+        }
+    }
+
+    .selo-marfrig {
+        img {
+            @media only screen and (max-width: 575.98px) {
+                width: 90px;
+                height: auto;
+            }
+        }
+    }
+
+    .description-canal {
+        width: 400px;
+        color: #fff;
+        font-size: em(14);
+        @media only screen and (max-width: 575.98px) {
+            width: auto;
+        }
+
+        p{
+            margin: 0px;
+            padding: 0px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: left;
+            @media only screen and (max-width: 575.98px) {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .blocos-pilares {
+        display: flex;
+        justify-content: space-evenly;
+        @media only screen and (max-width: 575.98px) {
+            display: block;
+            margin-top: 65px;
+        }
+
+        div{
+            width: 190px;
+            height: 190px;
+            background: #AED7EC;
+            border-radius: 6.441px;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-end;
+            padding: 15.50px 19px;
+            font-size: 16.102px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            @media only screen and (max-width: 575.98px) {
+                width: 100%;
+                height: auto;
+                flex-wrap: nowrap;
+                margin-bottom: 20px;
+                align-items: center;
+                font-size: 11px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                padding-left: 70px;
+                min-height: 60px;
+            }
+       
+            &.desenvolvimento {
+                background-color: #AED7EC;
+                color: #000;
+                background-image: url('../images/verde+/selo-desenvolvimento.png');
+                background-repeat: no-repeat;
+                background-position: 47% 20px;
+                @media only screen and (max-width: 575.98px) {
+                    background-position: 4% 13px;
+                    background-size: 40px;
+                }
+            }
+            &.estruturacao {
+                background-color: #CAEFED;
+                color: #000;
+                background-image: url('../images/verde+/selo-estruturacao.png');
+                background-repeat: no-repeat;
+                background-position: 47% 20px;
+                @media only screen and (max-width: 575.98px) {
+                    background-position: 4% 13px;
+                    background-size: 40px;
+                }
+            }
+            &.mecanismos {
+                background-color: #BCE1C9;
+                color: #000;
+                background-image: url('../images/verde+/selo-mecanismo.png');
+                background-repeat: no-repeat;
+                background-position: 47% 20px;
+                @media only screen and (max-width: 575.98px) {
+                    background-position: 4% 13px;
+                    background-size: 40px;
+                }
+            }
+        }
+    }
+
+    .conteudo {
+        background: #fff;
+        border-radius: 4px;
+        padding-top: 15px;
+        position: relative;
+
+        .destaque {
+            .col-md-9 {
+                @media only screen and (max-width: 575.98px) {
+                    padding: 0;
+                }
+            }
+
+            .card__big {
+                .card__thumb {
+                    img {
+                        @media only screen and (max-width: 575.98px) {
+                            border-radius: 0;
+                        }
+                    }
+                    &::after {
+                        display: none;
+                    }
+                }
+
+                .card__content {
+                    padding: 15px 90px 8px 30px;
+                    border-radius: 10px;
+                    right: 28px;
+                    background-color: rgba(0, 0, 0, 0.70);
+                    @media only screen and (max-width: 575.98px) {
+                        bottom: 0;
+                        left: 0;
+                        position: relative;
+                        border-radius: 0;
+                        padding: 10px 15px 15px;
+                        background: $musgo-marfrig;
+                        border-radius: 0px;
+                    }
+
+                    p {
+                        @media only screen and (max-width: 575.98px) {
+                            font-size: 11px;
+                            margin-bottom: 0;
+                        }
+                        a {
+                            color: $white-marfrig;
+                        }
+                    }
+                }
+
+                .selo {
+                    position: absolute;
+                    left: 88%;
+                    top: 4%;
+                    width: 82px;
+                    height: 71px;
+                    border-radius: 4px;
+                    @media only screen and (max-width: 575.98px) {
+                        left: 80%;
+                        width: 62px;
+                        height: 51px;
+                    }
+
+                    &.desenvolvimento {
+                        background-color: #AED7EC;
+                        background-image: url('../images/verde+/selo-desenvolvimento.png');
+                        background-repeat: no-repeat;
+                        background-position: 40% 17px;
+                        background-size: 45px;
+                        @media only screen and (max-width: 575.98px) {
+                            background-position: 38% 8px;
+                            background-size: 40px;
+                        }
+                    }
+
+                    &.estruturacao {
+                        background-color: #CAEFED;
+                        background-image: url('../images/verde+/selo-estruturacao.png');
+                        background-repeat: no-repeat;
+                        background-position: 50% 21px;
+                        background-size: 45px;
+                        @media only screen and (max-width: 575.98px) {
+                            background-position: 50% 12px;
+                            background-size: 40px;
+                        }
+                    }
+
+                    &.mecanismos {
+                        background-color: #BCE1C9;
+                        background-image: url('../images/verde+/selo-mecanismo.png');
+                        background-repeat: no-repeat;
+                        background-position: 48% 16px;
+                        background-size: 45px;
+                        @media only screen and (max-width: 575.98px) {
+                            background-position: 50% 6px;
+                            background-size: 40px;
+                        }
+                    }
+                }
+            }
+
+            .double-cards {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                @media only screen and (max-width: 575.98px) {
+                    flex-direction: row;
+                }
+
+                .card {
+                    position: relative;
+                    @media only screen and (max-width: 575.98px) {
+                        flex: 0 0 48%;
+                        max-width: 48%;
+                    }
+
+                    .selo {
+                        position: absolute;
+                        left: 74%;
+                        top: 5%;
+                        width: 57px;
+                        height: 50px;
+                        border-radius: 4px;
+                        z-index: 1;
+                        @media only screen and (max-width: 575.98px) {
+                            left: 67%;
+                            top: 5%;
+                            width: 47px;
+                            height: 40px;
+                        }
+    
+                        &.desenvolvimento {
+                            background-color: #AED7EC;
+                            background-image: url('../images/verde+/selo-desenvolvimento.png');
+                            background-repeat: no-repeat;
+                            background-position: 40% 10px;
+                            background-size: 36px;
+                            @media only screen and (max-width: 575.98px) {
+                                background-position: 40% 10px;
+                                background-size: 26px;
+                            }
+                        }
+    
+                        &.estruturacao {
+                            background-color: #CAEFED;
+                            background-image: url('../images/verde+/selo-estruturacao.png');
+                            background-repeat: no-repeat;
+                            background-position: 50% 13px;
+                            background-size: 40px;
+                            @media only screen and (max-width: 575.98px) {
+                                background-position: 53% 10px;
+                                background-size: 31px;
+                            }
+                        }
+    
+                        &.mecanismos {
+                            background-color: #BCE1C9;
+                            background-image: url('../images/verde+/selo-mecanismo.png');
+                            background-repeat: no-repeat;
+                            background-position: 48% 8px;
+                            background-size: 36px;
+                            @media only screen and (max-width: 575.98px) {
+                                background-position: 50% 9px;
+                                background-size: 26px;
+                            }
+                        }
+                    }
+
+                    &.default {
+                        .thumb-card {
+                            position: relative;
+                            &::after {
+                                position: absolute;
+                                bottom: 0;
+                                z-index: 0;
+                                width: 100%;
+                                height: 100%;
+                                content: "";
+                                display: block;
+                                border-radius: 10px;
+                                background: linear-gradient(180deg,rgba(46,46,46,0) 15%,rgba(46,46,46,.9) 100%);
+                            }
+                        }
+                    }
+    
+                    &.second {
+                        background-color: #B2DBBF;
+                        border-radius: 10px;
+    
+                        .thumb-card {
+                            min-height: 282px;
+                            @media only screen and (max-width: 575.98px) {
+                                min-height: 145px;
+                            }
+
+                            img {display: none;}
+                        }
+    
+                        .card__content {
+                            .cat {color: $white-marfrig;}
+                            h2 a {color: $musgo-marfrig;}
+                        }
+                    }
+    
+                    .thumb-card {
+                        @media only screen and (max-width: 575.98px) {
+                            max-height: 145px;
+                        }
+
+                        img {
+                            width: 100%;
+                            max-width: 100%;
+                            border-radius: 10px;
+                            @media only screen and (max-width: 575.98px) {
+                                max-height: 145px;
+                            }
+                        }
+                    }
+                    .card__content {
+                        position: absolute;
+                        bottom: 24px;
+                        left: 30px;
+                        padding-right: 28px;
+                        @media only screen and (max-width: 575.98px) {
+                            bottom: 12px;
+                            left: 15px;
+                            padding-right: 6px;
+                        }
+
+                        .cat {
+                            @media only screen and (max-width: 575.98px) {
+                                font-size: 12px;
+                            }
+                        }
+
+                        h2 {
+                            @media only screen and (max-width: 575.98px) {
+                                font-size: 14px;
+                            }
+                            a {
+                                color: $white-marfrig;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .card {
+            &__vertical {
+                @media only screen and (max-width: 575.98px) {
+                    position: relative;
+                }
+
+                .card__thumb {
+                    position: relative;
+                    @media only screen and (max-width: 575.98px) {
+                        margin-bottom: 7px;
+                    }
+
+                    .selo {
+                        position: absolute;
+                        left: 81%;
+                        top: 87%;
+                        width: 57px;
+                        height: 50px;
+                        border-radius: 4px;
+                        z-index: 1;
+                        @media only screen and (max-width: 575.98px) {
+                            left: 80%;
+                            top: 5%;
+                            width: 62px;
+                            height: 51px;
+                        }
+    
+                        &.desenvolvimento {
+                            background-color: #AED7EC;
+                            background-image: url('../images/verde+/selo-desenvolvimento.png');
+                            background-repeat: no-repeat;
+                            background-position: 40% 10px;
+                            background-size: 36px;
+                            @media only screen and (max-width: 575.98px) {
+                                background-position: 38% 8px;
+                                background-size: 40px;
+                            }
+                        }
+    
+                        &.estruturacao {
+                            background-color: #CAEFED;
+                            background-image: url('../images/verde+/selo-estruturacao.png');
+                            background-repeat: no-repeat;
+                            background-position: 50% 13px;
+                            background-size: 40px;
+                            @media only screen and (max-width: 575.98px) {
+                                background-position: 50% 12px;
+                                background-size: 40px;
+                            }
+                        }
+    
+                        &.mecanismos {
+                            background-color: #BCE1C9;
+                            background-image: url('../images/verde+/selo-mecanismo.png');
+                            background-repeat: no-repeat;
+                            background-position: 48% 8px;
+                            background-size: 36px;
+                            @media only screen and (max-width: 575.98px) {
+                                background-position: 50% 6px;
+                                background-size: 40px;
+                            }
+                        }
+                    }
+                }
+                
+                .card__content {
+                    .cat {
+                        @media only screen and (max-width: 575.98px) {
+                            margin: 0;
+                            position: absolute;
+                            top: 210px;
+                            left: 11px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    section#metas {
+        .metas-verde-mais {
+            display: flex;
+            align-items: baseline;
+    
+            h2 {
+                color: $orange-marfrig;
+                font-size: 46px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                margin-bottom: 0;
+                @media only screen and (max-width: 575.98px) {
+                    font-size: 25px;
+                    line-height: normal;
+                }
+            }
+            p.subt {
+                color: $cinza-marfrig;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                margin-bottom: 0;
+                @media only screen and (max-width: 575.98px) {
+                    font-size: 12px;
+                    line-height: normal;
+                }
+            }
+        }
+        .bioma-amaz {
+            max-width: 100%;
+            margin-bottom: 68px;
+            position: relative;
+            z-index: 1;
+        }
+        .bioma-cerrado {
+            max-width: 100%;
+            margin-bottom: 55px;
+            position: relative;
+            z-index: 1;
+            @media only screen and (max-width: 575.98px) {
+                margin-bottom: 30px;
+            }
+        }
+        svg {
+            margin-bottom: 30px;
+            width: 100%;
+        }
+    }
+
+    .video {
+        @media only screen and (max-width: 575.98px) {
+            padding: 0;
+        }
+        iframe {
+            width: 100%;
+            max-width: 100%;
+            height: 628px;
+            @media only screen and (max-width: 575.98px) {
+                height: 218px;
+            }
+        }
+        svg {
+            margin: 30px 0;
+            width: 100%;
+        }
+    }
+
+    .load-more {
+        .card {
+            @media only screen and (max-width: 575.98px) {
+                margin-bottom: 8px;                
+            }
+        }
+    }
+}

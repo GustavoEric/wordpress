@@ -1,0 +1,27 @@
+body.dark-mode {
+    .drawer-nav {
+        background: $color-body-dm;
+        &__inner {
+            .drawer-logo-hab {
+            filter: brightness(10);
+            }
+        }
+        ul {
+        }
+        .menu-item a {
+            color: $white-marfrig !important;
+        
+            &:hover {
+                color: $white-marfrig !important;
+            }
+        }
+        &__menu-3 {
+            .menu-item a {
+                color: $white-marfrig !important;
+            }
+        }
+    }
+    .close-menu-btn {
+        filter: brightness(10);
+    }
+}

@@ -1,0 +1,535 @@
+{
+    "key": "group_6224be08c1958",
+    "title": "[Revamp_2023] - Home Page",
+    "fields": [
+        {
+            "key": "field_64b9bbbb3f23e",
+            "label": "Topo da Página",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 1,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_64b9bc3f7568c",
+            "label": "Destaque principal",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_64b9bc6d99554",
+            "label": "Destaque maior",
+            "name": "destaque_maior",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "Selecione 01 Post ou deixe que seja exibido automaticamente.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "post",
+                "quiz"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search",
+                "post_type",
+                "taxonomy"
+            ],
+            "return_format": "object",
+            "min": "",
+            "max": 1,
+            "elements": ""
+        },
+        {
+            "key": "field_64b9bd8032eea",
+            "label": "Destaque menor com foto",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_64b9bca499555",
+            "label": "Destaque menor com foto",
+            "name": "destaque_menor_foto",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "Selecione 01 Post ou deixe que seja exibido automaticamente.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "post",
+                "quiz"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search",
+                "post_type",
+                "taxonomy"
+            ],
+            "return_format": "object",
+            "min": "",
+            "max": 1,
+            "elements": ""
+        },
+        {
+            "key": "field_64b9bd8232eeb",
+            "label": "Destaque menor sem foto",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_64b9bcde99556",
+            "label": "Destaque menor sem foto",
+            "name": "destaque_menor_sem_foto",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "Selecione 01 Post ou deixe que seja exibido automaticamente.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "post",
+                "quiz"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search",
+                "post_type",
+                "taxonomy"
+            ],
+            "return_format": "object",
+            "min": "",
+            "max": 1,
+            "elements": ""
+        },
+        {
+            "key": "field_64b9be06e1c1b",
+            "label": "Entrevistas",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_64b9bf0f41dd5",
+            "label": "Exibir bloco de Entrevistas",
+            "name": "ativar_bloco_entrevistas",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Sim": "Sim",
+                "Nao": "Não"
+            },
+            "default_value": "Nao",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64cd097dcead0",
+            "label": "Posts Entrevistas",
+            "name": "posts_entrevistas",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "Selecione até 03 Entrevistas para exibição na home",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "post"
+            ],
+            "taxonomy": [
+                "post_tag:entrevistas"
+            ],
+            "filters": [
+                "search",
+                "post_type",
+                "taxonomy"
+            ],
+            "return_format": "id",
+            "min": "",
+            "max": 3,
+            "elements": ""
+        },
+        {
+            "key": "field_64b9bbff28b48",
+            "label": "Meio da Página",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_64b9bfbfd07b0",
+            "label": "Post com foto maior",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_64b9bff6d07b1",
+            "label": "Post com foto maior",
+            "name": "first_scroll_post_foto_maior",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "Selecione 01 Post ou deixe que seja exibido automaticamente.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "post",
+                "quiz"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search",
+                "post_type",
+                "taxonomy"
+            ],
+            "return_format": "object",
+            "min": "",
+            "max": 1,
+            "elements": ""
+        },
+        {
+            "key": "field_64b9c087d07b5",
+            "label": "Post com foto menor",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_64b9c029d07b3",
+            "label": "Post com foto menor",
+            "name": "first_scroll_post_foto_menor",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "Selecione 01 Post ou deixe que seja exibido automaticamente.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "post",
+                "quiz"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search",
+                "post_type",
+                "taxonomy"
+            ],
+            "return_format": "object",
+            "min": "",
+            "max": 1,
+            "elements": ""
+        },
+        {
+            "key": "field_64b9c09ed07b6",
+            "label": "02 Posts sem foto",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_64b9c03dd07b4",
+            "label": "02 Posts sem foto",
+            "name": "first_scroll_posts_sem_foto",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "Selecione 02 Posts ou deixe que seja exibido automaticamente.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "post",
+                "quiz"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search",
+                "post_type",
+                "taxonomy"
+            ],
+            "return_format": "object",
+            "min": "",
+            "max": 2,
+            "elements": ""
+        },
+        {
+            "key": "field_64b9c1766ed67",
+            "label": "04 Posts sem foto",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_64b9c1806ed68",
+            "label": "04 Posts sem foto",
+            "name": "first_scroll_04_posts_sem_foto",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "Selecione 04 Posts ou deixe que seja exibido automaticamente.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "post",
+                "quiz"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search",
+                "post_type",
+                "taxonomy"
+            ],
+            "return_format": "object",
+            "min": "",
+            "max": 4,
+            "elements": ""
+        },
+        {
+            "key": "field_6312a22a72f1a",
+            "label": "Webstories",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_623b8521b5901",
+            "label": "Webstories",
+            "name": "web_stories",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "Selecione 06 Posts ou deixe que seja exibido automaticamente.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "web-story"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search",
+                "post_type",
+                "taxonomy"
+            ],
+            "return_format": "object",
+            "min": "",
+            "max": 6,
+            "elements": ""
+        },
+        {
+            "key": "field_6241eb7f17a18",
+            "label": "Vídeo",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_6241eab717a17",
+            "label": "Embed",
+            "name": "embed_video",
+            "aria-label": "",
+            "type": "oembed",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "width": 770,
+            "height": 380
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "home"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1691163963
+}

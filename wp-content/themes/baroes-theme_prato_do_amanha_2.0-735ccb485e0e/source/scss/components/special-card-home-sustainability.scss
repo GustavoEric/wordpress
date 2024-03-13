@@ -1,0 +1,69 @@
+.special-card-home-sustainability {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 253px;
+    margin-bottom: 40px;
+    @media only screen and (max-width: 575.98px) {
+        display: block;
+        min-height: auto;
+    }
+
+    .card-img {
+        margin: 0;
+        max-width: 40%;
+        flex-basis: 40%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        @media only screen and (max-width: 575.98px) {
+            max-width: 100%;
+            flex-basis: 100%;
+            height: auto;
+        }
+        img {
+            max-height: 330px;
+            @media only screen and (max-width: 575.98px) {
+                max-height: 100%;
+                max-width: 100%;
+                width: 100%;
+            }
+        }
+    }
+
+    .card-content {
+        max-width: 60%;
+        flex-basis: 60%;
+        display: flex;
+        align-items: center;
+        background: #F9F9F9; 
+        @media only screen and (max-width: 575.98px) {
+            max-width: 100%;
+            flex-basis: 100%;
+        }
+
+        h3 {
+            font-size: 22px;
+            @media only screen and (max-width: 575.98px) {
+                font-size: 20px;
+            }
+
+            a {
+                color: #000;
+            }
+        }
+        p {
+            font-size: 14px;
+
+            a {
+                color: #4D4D4D;
+            }
+        }
+
+        .card-content-inner {
+            padding: 16px 7px 10px 37px;
+            @media only screen and (max-width: 575.98px) {
+                padding: 20px;
+            }
+        }
+    }
+}

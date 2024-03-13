@@ -1,0 +1,86 @@
+.dark-mode-switch input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.dark-mode-switch label {
+  width: 55px;
+  height: 30px;
+  position: relative;
+  display: block;
+  background: transparent;
+  border: 1px solid #FFF;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    background: #fff;
+    border-radius: 18px;
+    transition: 0.3s;
+  }
+
+  svg {
+    position: absolute;
+    width: 18px;
+    top: 6px;
+    z-index: 100;
+    fill: #fff;
+    transition: 0.3s;
+
+    &.sun {
+      left: 6px;
+    }
+
+    &.moon {
+      right: 6px;
+    }
+  }
+}
+
+.dark-mode-switch input:checked + label {
+  &:after {
+    left: 29px;
+  }
+}
+
+@media (max-width: 767px) {
+  .dark-mode-switch label {
+    width: 44px;
+    height: 23px;
+
+    &:after {
+      width: 16px;
+      height: 16px;
+      top: 3px;
+      left: 4.5px;
+    }
+
+    svg {
+      width: 13.5px;
+      top: 4.5px;
+
+      &.sun {
+        left: 4.5px;
+      }
+
+      &.moon {
+        right: 4.5px;
+      }
+    }
+  }
+
+  .dark-mode-switch input:checked + label {
+    &:after {
+      left: 21.75px;
+    }
+  }
+}

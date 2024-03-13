@@ -1,0 +1,90 @@
+body {
+    .sectionFirulas {
+        position: absolute;
+        .detalhe-1 {
+            position: absolute;
+            top: 0;
+            right: -200px;
+            z-index: -1;
+            pointer-events: none;
+
+            @media only screen and (min-width: 1000px) {
+                right: -1095px;
+            }
+            @media only screen and (min-width: 1250px) {
+                right: -1453px;
+            }
+            @media only screen and (min-width: 1500px) {
+                right: -1705px;
+            }
+        }
+        .detalhe-2 {
+            position: absolute;
+            top: -75px;
+            left: -20px;
+            z-index: -1;
+            width: 600px;
+            pointer-events: none;
+
+            @media only screen and (max-width: 575.98px) {
+            }
+            @media only screen and (max-width: 575.98px) {
+            }
+            @media only screen and (max-width: 575.98px) {
+            }
+        }
+    }
+
+    &.home {
+        .sectionFirulas {
+            .detalhe-1 {
+                z-index: 0;
+            }
+            .detalhe-3 {
+                position: absolute;
+                pointer-events: none;
+                top: 540vh;
+                z-index: 1;
+                left: 88vw;
+                @media only screen and (max-width: 575.98px) {
+                    display: none !important;
+                }
+            }
+        }
+    }
+
+    &.single .sectionFirulas {
+        .detalhe-1 {
+            top: 40px;
+            right: -1335px;
+            @media only screen and (min-width: 1380px) {
+                right: -1435px;
+            }
+            @media only screen and (min-width: 1485px) {
+                right: -1492px;
+            }
+        }
+    }
+
+    &.page-template-page-marfrig-verde-mais {
+        .sectionFirulas-verdemais {
+            position: relative;
+            .detalhe-3 {
+                position: absolute;
+                pointer-events: none;
+                top: 140vh;
+                z-index: 1;
+                left: 60vw;
+                @media only screen and (max-width: 575.98px) {
+                    display: none !important;
+                }
+            }
+        }
+    }
+
+    &.post-type-archive-newsletter {
+        .sectionFirulas {
+            display: none;
+        }
+    }
+}

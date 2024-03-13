@@ -1,0 +1,14 @@
+* {
+    font-family: Kumbh Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.card {
+    .card__content h2 {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 0;
+        a {
+            color: $title-marfrig;
+        }
+    }
+}

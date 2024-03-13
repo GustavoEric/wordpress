@@ -1,0 +1,212 @@
+.newsletter-box-floating {
+    display: block;
+    .newsletter-modal {
+        opacity: 0;
+        pointer-events: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 9999;
+        background-color: rgba(51,51,51,.5);
+        transition: all .5s ease;
+        display: none;
+        &.open {
+            opacity: 1;
+            display: block;
+        }
+
+        
+        .modal-dialog {
+            max-width: 490px;
+            height: 486px;
+            border-radius: 10px;
+            padding: 4px 3px;
+            max-height: 500px;
+            background-color: #035866;
+            position: absolute;
+            width: 90vw;
+            transform: translate(-50%,-50%);
+            left: 48%;
+            top: 45%;
+            @media only screen and (max-width: 575.98px) {
+                max-width: 341px;
+                height: 400px;
+            }
+
+            .modal-content {
+                background-color: #035866;
+                border: none;
+                display: flex;
+                flex-wrap: wrap;
+                border-radius: 4px;
+                background-color: $musgo-marfrig;
+                background-image: url('../images/newsletter/path-newsletter-1.png');
+                background-repeat: no-repeat;
+                background-size: 120px;
+                @media only screen and (max-width: 575.98px) {
+                    background-size: 100px;
+                }
+
+                .modal-header {
+                    border: none;
+                    padding: 0 20px;
+
+                    button {
+                        background: inherit;
+                        font-size: 45px;
+                        line-height: 30px;
+                        color: #fff;
+                        padding: 0;
+                        margin-left: auto;
+                        border: none;
+                        outline: none;
+                    }
+                }
+
+                .modal-body {
+                    padding: 0px 12px 24px;
+                    margin: 50px 50px 0px 50px;
+                     @media only screen and (max-width: 575.98px) {
+                        margin: 20px 20px 0px 20px;
+                        padding: 0px 12px 0px;
+
+                    }
+
+                    .modal-body-top {
+                        p {
+                            color: #fff;
+                            font-size: 34px;
+                            font-weight: 700;
+                            line-height: 38px;
+                            letter-spacing: 0em;
+                        }
+                        .destaque {
+                           
+                            .nossa-news {
+                                
+                                span {
+                                    color: #fff;
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                    }
+
+                    .formNewsletter {
+                        padding: 0;
+                        padding-bottom: 20px;
+
+                        form {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            flex-wrap: wrap;    
+                                                    
+
+                            label {
+                                margin-bottom: 0;
+                                background-color: #fff;
+                                height: 47px;
+                                border-radius: 3px;
+                                padding: 0;
+
+                                .material-symbols-outlined {
+                                    color: #004a8f;
+                                    font-weight: 700;
+                                    background: #fff;
+                                    background-color: #fff;
+                                    font-size: 25px;
+                                }
+                            }
+
+                            input {
+                                color: #000;
+                                border: none;
+                                outline: none;
+                                padding-left: 47px;
+                                width: 100%;
+                                @media only screen and (max-width: 575.98px) {
+                                     height: 40px;
+                                }
+                                
+                            }
+
+                            input[type=email] {
+                                height: 47px;
+                                color: #8D8D8D;
+                                font-family: Montserrat;
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 17px;
+                                letter-spacing: 0em;
+                                text-align: left;
+                                &::placeholder {
+                                    color: #8D8D8D;
+                                    font-family: Montserrat;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                }
+                            }
+
+                            input[type=submit] {
+                                height: 47px;
+                                padding: 0px 30px;
+                                border-radius: 3px;
+                                color: #fff;
+                                background-color: #70D182;
+                                font-family: Montserrat;
+                                font-size: 14px;
+                                font-weight: 900;
+                                line-height: 17px;
+                                letter-spacing: 0em;
+                                text-align: center;
+                            }
+
+                            .form-check {
+                                .form-check-label {
+                                    display: flex;
+                                    padding-left: 8px;
+                                    margin-bottom: 0;
+                                    font-size: 13px;
+                                    font-weight: 200;
+                                    line-height: 18px;
+                                    letter-spacing: 0;
+                                    text-align: left;
+                                    color: #000;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .newsletter-form-wrapper {
+            form {
+                .form-group {
+                    padding: 5px;
+                    display: block;
+                input[type=text] {
+                    @media only screen and (max-width: 575.98px) {
+                        background-size: 10%;
+                    }
+                }
+                    .btn {
+                        margin-left: 0;
+                        width: 100%;
+                        @media only screen and (max-width: 575.98px) {
+                            height: 40px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

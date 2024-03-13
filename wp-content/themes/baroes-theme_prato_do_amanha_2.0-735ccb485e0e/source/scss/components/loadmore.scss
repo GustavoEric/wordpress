@@ -1,0 +1,51 @@
+body {
+    .alm-reveal {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(var(--bs-gutter-y) * -1);
+        margin-right: calc(var(--bs-gutter-x) * -.5);
+        margin-left: calc(var(--bs-gutter-x) * -.5);
+
+        >* {
+            max-width: 100%;
+            padding-right: calc(var(--bs-gutter-x) * .5);
+            padding-left: calc(var(--bs-gutter-x) * .5);
+            margin-top: var(--bs-gutter-y);
+        }
+    }
+
+    .alm-btn-wrap {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        
+        .alm-load-more-btn {
+            &.more {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                border: none;
+                background: 0 0;
+                box-shadow: none;
+                font-weight: 700;
+                font-size: 30px;
+                color: $orange-marfrig;
+                @media only screen and (max-width: 575.98px) {
+                    font-size: 22px;
+                }
+            }
+            &::after {
+                display: block;
+                content: " ";
+                width: 34px;
+                height: 17px;
+                background: url('../images/setup_arrows/orange-arrow.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+            }
+        }
+    }
+}

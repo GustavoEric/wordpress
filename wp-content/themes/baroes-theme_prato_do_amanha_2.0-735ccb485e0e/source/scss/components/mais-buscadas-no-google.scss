@@ -1,0 +1,58 @@
+.mais-buscadas {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    @media only screen and (max-width: 575.98px) {
+        gap: 17px;
+    }
+
+    h2.title {
+        color: rgba(46, 46, 46, 0.80);
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 22px;
+        @media only screen and (max-width: 575.98px) {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: normal;
+            margin-bottom: 0;
+        }
+    }
+    .post-title {
+        color: $musgo-marfrig;
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 80px;
+        background: #b2dbbf;
+        padding: 23px 39px 23px 30px;
+        @media only screen and (max-width: 575.98px) {
+            font-size: 14px;
+            padding: 18px 20px;
+        }
+
+        &::before {
+            content: "";
+            display: block;
+            background-image: url('../images/setup_lupa/search.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 29px;
+            height: 29px;
+            flex: 0 0 29px;
+        }
+
+        &.white {
+            color: #fff;
+
+            &::before {background-image: url('../images/setup_lupa/search2.svg');}
+            &.bg-orange {background-color: $orange-marfrig;}
+            &.bg-musgo {background-color: $musgo-marfrig;}
+        }
+    }
+}

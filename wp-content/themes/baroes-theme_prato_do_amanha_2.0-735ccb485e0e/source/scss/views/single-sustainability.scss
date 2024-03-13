@@ -1,0 +1,104 @@
+.single-sustainability {
+    #header {
+        .logo {
+            img {
+                height: auto;
+                max-width: 100%;
+            }
+        }
+    }
+
+    #footer {
+        .logo-white-pratodoamanha, nav.footer {
+            display: none;
+        }
+    }
+
+    .wp-block-image .alignright{
+        @media only screen and (max-width: 575.98px) {
+            margin: 0px;
+        }
+    }
+    .sectionFirulas{
+        display: none;
+    }
+    #main{
+        background-color: #B2DBBF;
+        background-image: url('../images/sustainability/fnd-sustainability.png');
+        background-size: 1440px;
+        background-position: top center;
+        padding-top: 0px;
+    }
+    #single-header{
+        background: none;
+        margin-bottom: 0px;
+        margin-top: 0px; 
+        padding: 0px;
+
+        .single-thumb{
+            margin-bottom: 0px;
+            img {
+                width: 100%;
+                @media only screen and (max-width: 575.98px) {
+                    height: auto;
+                }
+            }
+        }
+
+        h1{
+            color:#035866;
+            font-weight: 500;
+            background: #F3FFBD;
+            padding: 30px 30px 30px 95px;
+            width: 96%;
+            font-weight: 500;
+            margin-top: -30px;
+            font-size: 40px;
+            @media only screen and (max-width: 575.98px) {
+                font-size: 1.5em;
+                margin-top: -20px;
+                margin-bottom: 10px;
+                padding: 10px 10px 10px 25px;
+            }
+        }
+    }
+
+    .special-card-sustainability{
+        min-height: inherit;
+    }
+
+    .special-card-sustainability .card-content p{
+        display: none!important;
+    }
+
+    .special-card-sustainability .card-content h3{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .special-card-sustainability .card-content .card-content-inner {
+        padding: 16px 7px 10px 17px;
+    }
+
+    .single-leia-mais{
+        border-top: 1px solid #035866;
+        padding-top: 10px;
+        color:#021F59;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    h2{
+        font-size: 20px;
+        margin: 10px 0 10px 0;
+        color: #035866;
+        font-weight: 500;
+        @media only screen and (max-width: 575.98px) {
+            font-size: 16px;
+            line-height: 150%;
+        } 
+    }
+
+    .leia-mais{
+        background: #fff;
+    }
+}

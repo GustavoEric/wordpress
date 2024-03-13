@@ -1,0 +1,22 @@
+body {
+    position: relative;
+    overflow-x: hidden !important;
+    @media only screen and (max-width: 575.98px) {
+        position: inherit;
+    }
+
+    a {
+       text-decoration: none;
+    }
+
+    .card {
+        border: none;
+        border-radius: 0;
+    }
+
+    .container {
+        @media only screen and (min-width: 1200px) and (max-width: 1398px) {
+            max-width: 1300px;
+        }
+    }
+}

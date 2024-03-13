@@ -1,0 +1,13 @@
+.page-template-page-marfrig-verde-mais.dark-mode {
+    .conteudo {
+        background-color: $color-body-dm;
+
+        #metas {
+            .bioma-amaz,
+            .bioma-cerrado {
+                background-color: #fff;
+                border-radius: 10px;
+            }
+        }
+    }
+}
