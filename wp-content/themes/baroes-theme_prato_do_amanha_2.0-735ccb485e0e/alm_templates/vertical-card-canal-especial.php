@@ -1,1 +1,0 @@
-<?php get_template_part('template_parts/vertical-card-canal-especial') ?>
